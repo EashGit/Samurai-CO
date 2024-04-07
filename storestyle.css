@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100;1,100,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Noto+Sans+JP:wght@100..900&family=Water+Brush&display=swap');
 
 
 /* navbar styling */
@@ -77,3 +79,49 @@ body {
    background-color: black;
 }
 
+/* Store Layout Main */
+.Body-Upper { 
+    padding-top: 13%;
+    background-image: linear-gradient(45deg, #0000, #660703, #0000 ) ;
+    border-bottom: 2px solid #700000;
+    text-align: center;
+    position: relative;
+}
+
+
+
+.Store-Body { 
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.content {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 50px;
+    padding-top: 50px;
+}
+
+.item {
+    background-color: #3b010183;
+    border-radius: 5px ;
+    padding: 50px;
+    width: 80px;
+    height : 90px;
+    
+}
+
+.Intro-Text {
+    color: #fff; 
+    font-size: 36px; 
+    font-family: "Water Brush", cursive; 
+    margin: 0; 
+    padding: 00px; 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
